@@ -1,13 +1,14 @@
-import Head from 'next/head';
 import React from 'react';
-import Footer from './Footer';
+import Head from 'next/head';
+
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
     return (
         <div className="layout">
             <Head>
-                <title>Ecommerce Next-Sanity </title>
+                <title>Ecommerce Next Sanity Store</title>
             </Head>
             <header>
                 <Navbar />
